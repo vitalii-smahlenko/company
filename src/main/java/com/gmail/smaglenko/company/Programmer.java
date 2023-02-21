@@ -4,8 +4,10 @@ public class Programmer extends Employee {
     private String language;
     private String level;
 
-    public Programmer(String name, int age) {
+    public Programmer(String name, int age, String language, String level) {
         super(name, age);
+        this.language = language;
+        this.level = level;
     }
 
     public String getLevel() {
